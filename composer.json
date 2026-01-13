@@ -12,7 +12,7 @@
     "doctrine/doctrine-bundle": "*",
     "doctrine/doctrine-migrations-bundle": "^3.3",
     "doctrine/orm": "^3.1",
-    "nelmio/api-doc-bundle": "^4.20",
+    "nelmio/api-doc-bundle": "^5.9",
     "predis/predis": "^2.2",
     "scheb/2fa-bundle": "^7.6",
     "sonata-project/admin-bundle": "^4.29",
