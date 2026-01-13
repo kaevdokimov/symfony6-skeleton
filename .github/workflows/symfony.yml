@@ -32,7 +32,7 @@ jobs:
         run: echo "{name}={value}" >> $GITHUB_STATE
       - name: Set output
         run: echo "{name}={value}" >> $GITHUB_OUTPUT
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v6
       - name: Copy .env.test.local
         run: php -r "file_exists('.env.test.local') || copy('.env.test', '.env.test.local');"
       - name: Cache Composer packages
